@@ -27,7 +27,13 @@
           </dependency>
        </dependencies>
        <!-- end::joda[] -->
-       
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>vigneshb-art-releases</name>
+            <url>http://support-team-vigneshb-art.jfrog.farm:8081/artifactory/sample-repo-libs-release</url>
+        </repository>
+    </distributionManagement>   
     <build>
         <plugins>
             <plugin>
